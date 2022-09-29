@@ -1,3 +1,5 @@
+#Now let’s see how to scrape IMDb using Python. I will start this task by searching for a movie id randomly to see which movie is associated with the id:
+
 from imdb import IMDb
 movie = IMDb().get_movie('012346')
 print(movie)
